@@ -1,0 +1,1 @@
+This example demonstrates a common error in VBScript: unhandled errors within functions. The `bug.vbs` file shows a function that raises an error if its parameter is empty.  However, it lacks proper error handling in the calling code, leading to a script crash. The `bugSolution.vbs` file provides a corrected version with error handling.
